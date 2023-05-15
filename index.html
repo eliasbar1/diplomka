@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cryptomania</title>
+    <script type="text/javascript" src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-selection-multi.v1.min.js"></script>
+    <link href="./data/vis_data/main.css" rel="stylesheet">
+
+    <script type="text/javascript" src="data/vis_data/jsonQ.js"></script>
+    <script type="text/javascript" src="data/vis_data/cryptoViz.js"></script>
+    <script type="text/javascript" src="data/vis_data/bob_coordinates.js"></script>
+    <script type="text/javascript" src="data/vis_data/fan_coordinates.js"></script>
+    <script type="text/javascript" src="data/vis_data/man_coordinates.js"></script>
+    <script type="text/javascript" src="data/vis_data/general.js"></script>
+    <!--
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+  integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+  crossorigin=""/>
+  -->
+
+  <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
+
+
+   <script src="https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+  integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+  crossorigin=""></script>
+
+  <script src='//api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script>
+
+  <script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+  <script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
+
+  <script src="https://rawgithub.com/ismyrnow/Leaflet.groupedlayercontrol/master/src/leaflet.groupedlayercontrol.js"></script>
+
+
+  	<script src="https://cdn.plot.ly/plotly-latest.min.js?_ga=2.217462870.1576911299.1588417227-884880134.1586790058"></script>
+
+  </head>
+  <body>
+
+    <div id = "mybegin" class= 'row'>
+      <div id = "mapid" class= 'column' ></div>
+      <script>
+       drawMap();
+      </script>
+      <div id = "myDiv" class = 'column'></div>
+    </div>
+
+
+    <div id = 'allOfIt'></div>
+
+
+   <div id = "myneco" class= 'row'>
+     <div id = "overall" class = 'columnL'></div>
+     <div id = "myBar" class = 'columnR'></div>
+   </div>
+
+
+
+  </body>
