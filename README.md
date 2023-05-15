@@ -2,7 +2,7 @@
 
 Zde jsou shrnuty všechny soubory používané pro predikci využití nápovědy během hraní šifrovací hry společnosti Cryptomania. Pro tuto predikci je nejprve ohodnocena šifra pomocí modelu predikce obtížnosti, výstup z jeho předposlední vrstvy je následně použit v predikci společně s daty o týmu, šifře a hře.
 
-> **POZOR** vzhledem k velikosti souborů s je složka **data** v ukázkové podobě a obsahuje jen jeden obrázek v každé ze složek, stejně tak **checkpoints** 
+> **POZOR** vzhledem k velikosti souborů s je složka **data** v ukázkové podobě a obsahuje jen jeden obrázek v každé ze složek, stejně tak **checkpoints**, které jsou ke stažení zde https://drive.google.com/file/d/1n_MpnyslmT0E-p9LqDx6zyixIo76ohE6/view?usp=sharing, https://drive.google.com/file/d/1qekyXbxr1hGDGx_P40Ea2MV3Stl8ybpe/view?usp=sharing 
 
 Pro zobrazení vizualizace je třeba spustit webovou aplikaci pomocí příkazu `python ./dash_app.py` v kořenovém adresáři projektu. 
 
