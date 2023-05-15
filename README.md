@@ -2,7 +2,7 @@
 
 Zde jsou shrnuty všechny soubory používané pro predikci využití nápovědy během hraní šifrovací hry společnosti Cryptomania. Pro tuto predikci je nejprve ohodnocena šifra pomocí modelu predikce obtížnosti, výstup z jeho předposlední vrstvy je následně použit v predikci společně s daty o týmu, šifře a hře.
 
-> **POZOR** vzhledem k velikosti souborů s přiloženými daty (složka **checkpoints** a složka **data**) jsou jejich složky přiloženy jako samostatné .zip soubory, pro správné fungování je třeba je stáhnout a rozbalit ve stejné složce jako zdrojové kódy, tj. úroveň souborů *.py a *.ipynb je stejná, jako úroveň adresáře *data*, jak je uvedeno níže.
+> **POZOR** vzhledem k velikosti souborů s je složka **data** v ukázkové podobě a obsahuje jen jeden obrázek v každé ze složek, stejně tak **checkpoints** 
 
 Pro zobrazení vizualizace je třeba spustit webovou aplikaci pomocí příkazu `python ./dash_app.py` v kořenovém adresáři projektu. 
 
